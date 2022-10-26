@@ -12,10 +12,10 @@
   --red: #f94141;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
+} */
 
 body {
   font-family: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",

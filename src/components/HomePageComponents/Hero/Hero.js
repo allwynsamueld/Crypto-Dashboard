@@ -24,7 +24,7 @@ const Hero = () => {
 
             <RWebShare
               data={{
-                text: "Checkout my crypto tracker made using React!",
+                text: "Checkout my crypto App made using React!",
                 url: APP_URL,
                 title: "Crypto Tracker",
               }}
