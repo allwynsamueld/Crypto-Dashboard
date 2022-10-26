@@ -10,7 +10,7 @@
   gap: 0.5rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--darkgrey);
+  background-color: var(--background);
   border-radius: 2rem;
   padding: 1rem 2rem;
   color: var(--white);
@@ -18,9 +18,9 @@
 
 .search-input input {
   width: 100%;
-  background-color: var(--darkgrey);
+  background-color: var(--background);
   border: 0px;
-  color: var(--white);
+  color: var(--black);
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -28,4 +28,9 @@
 
 .search-input input:focus {
   outline: none;
+}
+@media only screen and (max-width: 800px) {
+  .search-input {
+    width: 100%;
+  }
 }

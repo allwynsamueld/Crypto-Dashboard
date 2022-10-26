@@ -1,6 +1,6 @@
 .outline-button-wrapper {
-  background-color: var(--black);
-  border: 2px solid var(--neon);
+  /* background-color: var(--black); */
+  border: 2px solid var(--primary);
   font-weight: 600;
   width: fit-content;
   border-radius: 3rem;
@@ -10,13 +10,13 @@
 }
 
 .outline-button-wrapper p {
-  color: var(--white);
+  color: black;
   font-weight: 600;
   margin: 0;
 }
 
 .outline-button-wrapper:hover {
-  background-color: var(--neon);
+  background-color: var(--primary);
   transition: all 0.3s;
   cursor: pointer;
 }

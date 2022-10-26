@@ -1,5 +1,5 @@
 .coin-box {
-  background-color: var(--darkgrey);
+  background-color: var(--background);
   width: 300px;
   height: 300px;
   border-radius: 1rem;
@@ -9,6 +9,31 @@
   flex-direction: column;
   padding: 2rem;
   cursor: pointer;
+}
+
+.coin-box:hover {
+  border: 2px solid var(--green) !important;
+  transform: scale(1.02) !important;
+  transition: all 0.3s;
+}
+
+.box-red {
+  background-color: var(--background);
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.box-red:hover {
+  transform: scale(1.02) !important;
+  border: 2px solid var(--red);
+  transition: all 0.3s;
 }
 
 .logo-div {
@@ -67,7 +92,7 @@
 .chip:hover,
 .trending-icon:hover {
   background-color: var(--green);
-  color: var(--white) !important;
+  color: var(--black) !important;
   transition: all 0.3s;
 }
 
@@ -78,7 +103,7 @@
 
 .red:hover {
   background-color: var(--red);
-  color: var(--white) !important;
+  color: var(--black) !important;
   border-color: var(--red);
   transition: all 0.3s;
 }
@@ -99,7 +124,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .coin-box {
+  .coin-box,
+  .box-red {
     width: 100%;
     align-items: center;
   }

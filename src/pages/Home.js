@@ -1,13 +1,13 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import LandingComponent from "../components/HomePageComponents/LandingComponent";
+import Hero from "../components/HomePageComponents/Hero/Hero";
+import Signup from "../components/HomePageComponents/Signup/Signup";
+import Footer from "../components/Footer/index";
+
 function Home() {
   return (
-    <div>
-      <Header />
-      <LandingComponent />
-      <Footer />
+    <div style={{ minHeight: "100vh" }}>
+      <Hero />
+      <Signup />
     </div>
   );
 }
